@@ -14,7 +14,7 @@ void help_show_usage(void) {
 	fprintf(stdout,
 			"Usage : scrot [OPTION] \n"
 			"-h, --help                display this help and exit\n"
-			"Default quality: 75. You can change it on line 6.\n"
+			"Default quality: 75. You can change it in scrot.c.\n"
 			"-s  interactively choose a rectnagle with the mouse\n"
 			"-w  interactively choose a window with the mouse\n\n"
 			"This program is free software.\n"
