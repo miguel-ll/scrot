@@ -1,9 +1,0 @@
-.*
-*~
-*.o
-*.png
-!.gitignore
-!.travis.yml
-!.ycm_extra_conf.py
-
-/scrot
