@@ -45,7 +45,6 @@ int image_height(Image image) {
 }
 
 int image_save(Image image, char *filename) {
-	printf("%s\n", filename);
 	char *tmp = strrchr(filename, '.');
 	if (tmp) {
 		imlib_image_set_format(tmp + 1);
