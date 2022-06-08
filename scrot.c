@@ -79,7 +79,7 @@ int main(int argc, char **argv)
 	time(&t);
 	struct tm *info = localtime(&t);
 	strftime(path_image, 40, "%Y-%m-%d-%H%M%S_scrot.png", info);
-
+        printf("%s\n", path_image);
 	int error = image_save(image, path_image);
 	if (error) {
 		fprintf(stderr, "Saving to file %s failed\n", path_image);
